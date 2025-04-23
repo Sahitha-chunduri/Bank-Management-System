@@ -40,7 +40,7 @@ cd Bank-Management-System
 ## 🔧 Prerequisites
 - **Java JDK 8 or above**
 
--**MySQL server installed and running**
+- **MySQL server installed and running**
 
 - **MySQL Connector/J (JDBC driver)**
 
@@ -65,15 +65,15 @@ String password = "your_mysql_password";
 Using your IDE, open the project folder and run the main Java file.
 
 ## 🧩 Future Enhancements
--**Add user role-based access (Admin/User)**
+- **Add user role-based access (Admin/User)**
 
--**Implement interest calculation logic**
+- **Implement interest calculation logic**
 
--**Export customer reports to PDF or Excel**
+- **Export customer reports to PDF or Excel**
 
--**Improve UI with more modern JavaFX interface**
+- **Improve UI with more modern JavaFX interface**
 
--**Add email notifications for transactions**
+- **Add email notifications for transactions**
 
 ## 🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements, features, or bug fixes.
