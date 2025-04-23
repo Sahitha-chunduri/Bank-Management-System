@@ -1,66 +1,41 @@
+# 🏦 Bank Management System
 
-Overview
+The **Bank Management System** is a Java Swing-based desktop application designed to simulate basic banking operations such as account creation, deposit, withdrawal, and balance inquiry. This system provides a user-friendly interface and integrates with a MySQL database to store and manage customer data securely.
 
-The Bank Management System is a desktop-based application built using Java Swing. It simulates basic banking operations, including account management, transactions, and balance inquiries. The system uses a graphical user interface (GUI) to interact with users.
+## 🎯 Objective
 
-Features
+To provide a simple, intuitive application for managing bank account operations in an educational or prototype environment, demonstrating Java Swing GUI development and MySQL integration.
 
-User Authentication: Secure login functionality for users.
+## 🚀 Features
 
-Account Management: Sign-up process for new users with multi-step forms.
+- 🔐 **User Authentication**: Admin login with credentials.
+- 👤 **Customer Management**:
+  - Create new bank accounts
+  - View customer details
+  - Update and delete accounts
+- 💰 **Banking Operations**:
+  - Deposit and withdraw funds
+  - View account balance
+  - Generate transaction receipts
+- 📊 **Database Integration**:
+  - Stores all customer and transaction details in MySQL
+- 🖼️ **GUI Interface**:
+  - Built using Java Swing for a clean and responsive interface
 
-Transactions: Deposit, withdrawal, and fast cash operations.
+## 🛠️ Technologies Used
 
-Balance Inquiry: Check the current balance of an account.
+- **Language**: Java
+- **GUI**: Java Swing
+- **Database**: MySQL
+- **IDE**: Eclipse / IntelliJ / NetBeans (compatible)
 
-Mini Statement: View recent transactions for an account.
+## ⚙️ Installation & Setup
 
-PIN Management: Set or update account PIN securely.
+### 🗂️ Clone the repository:
 
-File Structure
+```bash
+git clone https://github.com/Sahitha-chunduri/Bank-Management-System.git
+cd Bank-Management-System
 
-Source Files
 
-BalanceEnquiry.java: Handles balance inquiries for specific accounts.
 
-conn.java: Manages database connectivity.
-
-Deposit.java: Facilitates depositing money into accounts.
-
-FastCash.java: Provides quick withdrawal options for preset amounts.
-
-login.java: Manages user authentication and login.
-
-MiniStatement.java: Displays recent transactions for an account.
-
-Pin.java: Allows users to set or change their account PIN.
-
-Practice.java: Likely a test or utility class for practice purposes.
-
-Signup.java, Signup2.java, Signup3.java: Implements a multi-step account creation process.
-
-Transactions.java: Handles account transactions like deposits and withdrawals.
-
-Withdrawl.java: Manages withdrawal operations.
-
-Icons
-
-The icons folder contains image files used in the GUI to enhance the user interface.
-
-How to Use
-
-Launch the Application: Run the login.java file to start the application.
-
-Login/Signup:
-
-Existing users can log in using their credentials.
-
-New users can sign up through a multi-step process (Signup, Signup2, Signup3).
-
-Perform Transactions:
-
-Use options like Deposit, Withdrawal, or Fast Cash for transactions.
-
-Check your balance or view the mini statement for recent activity.
-
-Manage PIN: Update or set your account PIN securely.
