@@ -36,6 +36,51 @@ To provide a simple, intuitive application for managing bank account operations 
 ```bash
 git clone https://github.com/Sahitha-chunduri/Bank-Management-System.git
 cd Bank-Management-System
+```
+## 🔧 Prerequisites
+- **Java JDK 8 or above**
+
+-**MySQL server installed and running**
+
+- **MySQL Connector/J (JDBC driver)**
+
+## 🛠️ Setup Steps
+1. Create the database in MySQL:
+
+```bash
+CREATE DATABASE bankdb;
+USE bankdb;
+```
+2. Configure the DB connection in the Java project:
+
+Inside the Java file that handles the database connection (likely DBConnection.java), ensure the following:
+
+```bash
+String url = "jdbc:mysql://localhost:3306/bankdb";
+String username = "your_mysql_username";
+String password = "your_mysql_password";
+```
+3. Compile and Run the Application
+
+Using your IDE, open the project folder and run the main Java file.
+
+## 🧩 Future Enhancements
+-**Add user role-based access (Admin/User)**
+
+-**Implement interest calculation logic**
+
+-**Export customer reports to PDF or Excel**
+
+-**Improve UI with more modern JavaFX interface**
+
+-**Add email notifications for transactions**
+
+## 🤝 Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements, features, or bug fixes.
+
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
 
 
 
